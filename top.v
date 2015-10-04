@@ -10,6 +10,13 @@ wire	[3:0]	q;
 wire			clk;
 wire			rst;
 
+//-- Dump File
+initial
+begin
+$dumpfile("top.vcd")l
+$dumpvars(0, top);
+end
+
 //--- Design under test
 ripple_carry_counter r1(
 	.q		(q[3:0]),
