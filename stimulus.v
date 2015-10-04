@@ -8,9 +8,9 @@ module stimulus
 	q
 );
 
-output	clk;
-output	rst;
-input	q;
+output			clk;
+output			rst;
+input	[3:0]	q;
 
 //-- Parameters
 parameter   CLK_PERIOD = 10;
