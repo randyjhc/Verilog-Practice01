@@ -10,18 +10,18 @@ wire	[3:0]	q;
 wire			clk;
 wire			rst;
 
-//--- Desing under test
+//--- Design under test
 ripple_carry_counter r1(
-	.q(q[3:0]),
-	.clk(clk),
-	.rst(rst)
+	.q		(q[3:0]),
+	.clk	(clk),
+	.rst	(rst)
 );
 
 //--- Test driver
 stimulus s1(
-	.q(q[3:0]),
-	.clk(clk),
-	.rst(rst)
+	.q		(q[3:0]),
+	.clk	(clk),
+	.rst	(rst)
 );
 
 endmodule

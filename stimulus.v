@@ -1,4 +1,4 @@
-//--- File Name: ripple_carry_counter.v
+//--- File Name: stimulus.v
 //--- Author: randyjhc
 //--- Date: 2015-10-02
 module stimulus
@@ -20,10 +20,10 @@ reg			rst;
 //--- Monitor
 initial
 begin
-$monitor ($time, "output q = %d", q);
+$monitor ($time, "\toutput q = %d", q);
 end
 
-//-- clock generator
+//-- Clock generator
 initial
 begin
 clk = 0;

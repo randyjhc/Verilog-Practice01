@@ -1,4 +1,4 @@
-//--- File Name: ripple_carry_counter.v
+//--- File Name: d_ff.v
 //--- Author: randyjhc
 //--- Date: 2015-10-02
 module d_ff
