@@ -13,7 +13,7 @@ wire			rst;
 //-- Dump File
 initial
 begin
-$dumpfile("top.vcd")l
+$dumpfile("top.vcd");
 $dumpvars(0, top);
 end
 
