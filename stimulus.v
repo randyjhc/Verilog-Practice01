@@ -14,7 +14,6 @@ input	q;
 
 //-- Parameters
 parameter   CLK_PERIOD = 10;
-reg			q;
 reg			clk;
 reg			rst;
 
