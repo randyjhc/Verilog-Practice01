@@ -5,6 +5,11 @@
 
 module top;
 
+//-- Interconnect
+wire	[3:0]	q;
+wire			clk;
+wire			rst;
+
 //--- Desing under test
 ripple_carry_counter r1(
 	.q(q),
